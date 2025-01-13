@@ -1,0 +1,51 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Poetry-specific files
+poetry.lock
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Log files
+*.log
+
+# Local development files
+*.sqlite3
+*.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+*.swp
+*.swo
+*.orig
+*.bak
+*.tmp
+
+# Pytest
+.cache/
+*.pytest_cache/
+
+# Static files (if generated dynamically)
+staticfiles/
+media/
+
+# Uvicorn logs
+*.pid
+*.log
+
+
